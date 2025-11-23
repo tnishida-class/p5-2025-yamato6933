@@ -143,7 +143,7 @@ function draw(){
   fill(255); 
   textSize(16);
   textAlign(CENTER, CENTER);
-  text(req_score + "score is required for level up",200, 30);
+  text(req_score + "score is required for level up",width/2, 30);
 
 
 
