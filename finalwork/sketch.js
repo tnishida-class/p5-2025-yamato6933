@@ -48,6 +48,8 @@ function draw(){
 
   //レベルクリアした時の表示
   if (clear){
+    targets = [];//ターゲットをクリアのたびに無くす
+    items = [];//アイテムもなくす
     background(160, 192, 255);
     fill(255); 
     textSize(64);
