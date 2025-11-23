@@ -2,8 +2,8 @@
 let balls;
 let targets;
 let gameover = false;
-let user_x = 0;
-let user_y = 0;
+let user_x;
+let user_y;
 let items = [];
 let range_item = 30;
 let score = 0;
@@ -27,6 +27,8 @@ function setup(){
   createCanvas(windowWidth, windowHeight);
   balls = [];
   targets = [];
+  user_x = (width / 2);
+  user_y = (height / 2);
 }
 function draw(){
   background(160, 192, 255);
